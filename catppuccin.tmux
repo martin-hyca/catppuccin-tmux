@@ -112,8 +112,9 @@ main() {
 
 
   local show_user
-  readonly show_user="#[fg=$thm_blue,bg=$thm_gray]$right_separator#[fg=$thm_bg,bg=$thm_blue]d #[fg=$thm_fg,bg=$thm_gray] #(whoami) "
+  readonly show_user="#[fg=$thm_blue,bg=$thm_gray]$right_separator#[fg=$thm_bg,bg=$thm_blue]U #[fg=$thm_fg,bg=$thm_gray] #(whoami) "
 
+# 
   local show_host
   readonly show_host="#[fg=$thm_blue,bg=$thm_gray]$right_separator#[fg=$thm_bg,bg=$thm_blue]󰒋 #[fg=$thm_fg,bg=$thm_gray] #H "
 
